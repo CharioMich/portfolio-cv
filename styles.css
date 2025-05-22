@@ -1,17 +1,11 @@
-/* :root {
-    --brownish: rgb(85, 13, 13);  
-    --center: rgb(187, 51, 51);
-    --active: rgb(232, 232, 232);
-    --top-waves: rgb(214, 180, 180);
-    --bottom-waves: rgb(44, 44, 44);
-} */
-
 :root {
     --side: rgb(0, 0, 0);  
     --center: rgb(29, 29, 29);
     --active: rgb(232, 232, 232);
-    --top-waves: rgb(253, 110, 15);
-    --bottom-waves: rgb(238, 113, 30);
+    --top-waves: rgba(212, 212, 212, 0.1);
+    --bottom-waves: rgba(205, 205, 205, 0.115);
+    --orange1: rgb(253, 110, 15);
+    --orange2: rgb(238, 113, 30);
     --orange: rgb(255, 157, 46);
     --sky: rgb(87, 235, 222);
     --card-shadow: rgb(135, 241, 233);
@@ -58,7 +52,6 @@ body {
 
 .custom-shape-divider-top-1747751815 .shape-fill {
     fill: var(--top-waves);
-    /* fill: rgb(5, 194, 184); */
 }
 
 .cf-abstract {
@@ -79,15 +72,15 @@ body {
 }
 
 .cf-box-shadow-violet {
-    box-shadow: 0 0 5px violet;
+    box-shadow: 0 0 8px violet;
 }
 
 .cf-box-shadow-sky {
-    box-shadow: 0 0 5px var(--sky);
+    box-shadow: 0 0 8px var(--sky);
 }
 
 .cf-box-shadow-orange {
-    box-shadow: 0 0 5px var(--orange);
+    box-shadow: 0 0 8px var(--orange);
 }
 
 /* GENERAL */
@@ -113,7 +106,15 @@ hr {
 }
 
 .cf-text-shadow {
-    text-shadow: 0 2px 10px rgb(0, 0, 0);
+    text-shadow: 0 0 40px rgb(0, 0, 0);
+}
+
+.cf-box-shadow {
+    box-shadow: 0 0 15px black;
+}
+
+.cf-tags-shadow {
+    text-shadow: 0 0 15px aquamarine;
 }
 
 .tricky {
@@ -125,10 +126,6 @@ hr {
     color: var(--card-shadow)!important;
     opacity: 1;
     transition: 0.5s;
-}
-
-.cf-tags-shadow {
-    text-shadow: 0 0 15px aquamarine;
 }
 
 /* CARDS */
@@ -158,11 +155,11 @@ hr {
 /* CONTACT */
 
 .hov-orange:hover {
-    color: var(--orange)!important;
+    color: blueviolet!important;
 }
 
 .hov-sky:hover {
-    color: rgb(7, 129, 211)!important;
+    color: #0a66c2!important;
 }
 
 .hov-violet:hover {
@@ -179,7 +176,7 @@ hr {
 }
 
 .cf-footer {
-    margin-top: 2rem;
+    margin-top: 2.2rem;
 }
 
 /* SVG */
@@ -203,7 +200,6 @@ hr {
 
 .custom-shape-divider-bottom-1747750426 .shape-fill {
     fill: var(--bottom-waves);
-    /* fill: blueviolet; */
 }
 
 /* Responsive */
@@ -269,7 +265,7 @@ hr {
     0 0 150px #0ff;
 }
 
-.flame {
+.hoverable:hover .flame {
     color: #ff0000;
   text-shadow:
     0 0 5px #ffffffc8,
@@ -279,5 +275,5 @@ hr {
     -5px 0 80px rgb(211, 93, 69),
     -5px 0 90px rgb(205, 92, 0),
     -5px 0 100px rgba(255, 60, 0, 0.858),
-    -5px 0 150px rgba(104, 40, 3, 0.856);
+    -5px 0 150px rgba(104, 3, 3, 0.856);
 }
