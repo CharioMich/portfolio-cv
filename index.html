@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c678a2c315.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#offcanvasNavbar" tabindex="0">
+  <nav data-aos="fade-left" class="navbar fixed-top">
+    <div class="container-fluid d-flex justify-content-end ">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header d-flex">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Charalampos Michalakis</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item text-center">
+              <a class="nav-link p-3" href="#welcome">Welcome</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link p-3" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link p-3" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link p-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="custom-shape-divider-top-1747751815">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+  </div>
+  <!-- WELCOME SECTION -->
+  <section id="welcome" class="cf-h d-flex flex-wrap justify-content-center align-items-center gap-4 cf-text-shadow">
+    <!-- Photo -->
+    <div class="ms-sm-4">
+      <img class="cf-abstract" src="img/ship.webp" width="300px" height="300px" alt="photo">
+    </div>
+    <div class="">
+      <header data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" 
+      class="text-light display-2 mb-2"
+        >Hey,<br> I'm Charalampos!
+      </header>
+      <p data-aos="fade-up"
+      data-aos-duration="1500" 
+      class="font-monospace mt-3 text-light fs-5"
+        > <span class="flame">🚀</span> An aspiring software developer.
+      </p>
+    </div>
+    <!-- <div class="logo">
+      <b>H<span>e</span>y, I'm Ch<span>a</span>ralampo<span>s</span>!</b>
+      <p data-aos="fade-up"
+      data-aos-duration="1500" 
+      class="text-light fs-5 text-center"
+        >🚀An aspiring software developer.
+      </p>
+    </div> -->
+  </section>
+  <!-- ABOUT-ME SECTION -->
+  <section id="aboutme" class="d-flex flex-column min-vh-100">
+    <div class="mt-5">
+
+      <div class="m-auto p-5 text-light d-flex flex-column align-items-center gap-5">
+        <!-- 1 -->
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="cf-about card cf-bg-opacity rounded-5 cf-box-shadow-sky text-center text-light" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-ship"></i></h5><hr>
+            <p> Started my journey in the marine industry with hands-on experience navigating and maintaining commercial vessels, ensuring safe, on-time cargo delivery around the world.
+              However, after succesfully graduating from the Merchant Marine Academy, I found myself in need of some more developing and creative enviroments.
+              My passion for technology and constant growth led me ashore into the world of code.
+            </p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="cf-about card cf-bg-opacity rounded-5 cf-box-shadow-violet text-center text-light" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-chalkboard-user"></i></h5><hr>
+            <p> Under my sister's (computer engineer) guidance, I started learning how to code, utilizing various online learning resources such as Harvard's CS50 course, 
+            freeCodeCamp and CodeAcademy before I eventually started studying at AUEB's top-tier CS program, Coding Factory. Ever since, I started developing full-stack applications using JavaScript, Java, SQL... 
+            aiming to solve real-world problems.
+            </p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="cf-about card cf-bg-opacity rounded-5 cf-box-shadow-orange text-center text-light" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title text-center"><i class="fa-solid fa-globe"></i></i></h5><hr>
+            <p> Previous roles at Inditex and as a barista have sharpened my communicational skills, customer-centered mindset and adaptability under pressure. <br>
+            Now, I seek to make my first steps into the tech world, bringing a unique blend of discipline, attention to detail, teamwork and most importantly, willingness to learn and grow.
+            Hoping to get my first developer or relevant role position where I can leverage my operational rigor and newly minted coding skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <hr class="w-75 m-auto"> -->
+  <!-- PROJECTS SECTION -->
+  <section id="projects" 
+    class="m-auto w-75 text-center tab-pane" 
+    role="tabpanel" 
+    aria-labelledby="profile-tab" 
+    tabindex="0">
+    <h2 class="display-6 text-light my-4">
+      <span class="tricky text-dark cf-tags-shadow">&lt;</span> Some of my projects: <span class="tricky text-dark cf-tags-shadow">/&gt;</span>
+    </h2>
+    <!-- First Row -->
+    <div class="d-flex justify-content-around flex-wrap">
+      <!-- First card -->
+      <div data-aos="fade-right" class="cf-card m-3">
+        <a class="cf-text-dec" href="https://www.freecodecamp.org/certification/BabisM/javascript-algorithms-and-data-structures-v8" target="_blank">
+          <div>
+            <img src="img/palindromeApp.png" class="card-img-top cf-img-rounded" alt="Project snapshot">
+            <div class="p-3">
+              <h5 class="card-title mb-1">Palindrome Checker</h5>
+              <p>
+                First certification project for freeCodeCamp's<br><i>"JavaScript Algorithms and Data Structures"</i> online course.<br>
+                Checks whether a given word is a palindrome or not.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Second card -->
+      <div data-aos="fade-left" class="cf-card m-3">
+        <a class="cf-text-dec" href="https://www.freecodecamp.org/certification/BabisM/javascript-algorithms-and-data-structures-v8" target="_blank">
+          <div>
+            <img src="img/pokemonApp.png" class="card-img-top cf-img-rounded" alt="Project snapshot">
+            <div class="p-3">
+              <h5 class="card-title mb-1">Pokemon Search App</h5>
+              <p>
+                Fifth certification project for freeCodeCamp's<br><i>"JavaScript Algorithms and Data Structures"</i> online course.<br>
+                Fetching data from <a href="https://pokeapi-proxy.freecodecamp.rocks/" target="_blank">PokéAPI Proxy</a>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--  Second Row -->
+    <div class="d-flex justify-content-around flex-wrap">
+      <!-- Third card -->
+      <div data-aos="fade-right" class="cf-card m-3">
+        <a class="cf-text-dec" href="https://www.freecodecamp.org/certification/BabisM/scientific-computing-with-python-v7?fbclid=IwAR0mwmIROdwUFfkKGRxSd_QKNi_J0X9IuNnEY5w_uX-VNWOovfRWfEAS1sw" target="_blank">
+          <div>
+            <img src="img/budgetApp.png" class="card-img-top cf-img-rounded" alt="Project snapshot">
+            <div class="p-3">
+              <h5 class="card-title mb-1">Python Budget App</h5>
+              <p>
+                Third certification project for freeCodeCamp's<br><i>"Scientific Computing with Python"</i> online course.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Fourth card -->
+      <div data-aos="fade-left" class="cf-card m-3">
+        <a class="cf-text-dec" href="https://github.com/CharioMich/five-projects-cf7/blob/main/src/project5/Project05.java" target="_blank">
+          <div>
+            <img src="img/JavaTheater.png" class="card-img-top cf-img-rounded" alt="Project snapshot">
+            <div class="p-3">
+              <h5 class="card-title mb-1">Theatre Java App</h5>
+              <p>
+                One of the five Christmas holiday Java projects<br>for AUEB Coding Factory.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mt-2 mb-2 text-light">More projects on my Github account...</div>
+  </section>
+  <hr class="w-75 m-auto mt-4">
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="cf-footer-h d-flex flex-column align-items-center justify-content-center">
+    <div>
+      <p data-aos="zoom-in" class="neon display-1 text-center text-light">Let's Work Together!</p>
+      <p data-aos="fade-up" class="text-center text-light fs-5">Coffee's on me!</p>
+    </div>
+    <div class="d-flex flex-wrap justify-content-center mt-5">
+      <a class="scaled link-light link-offset-2 link-underline-opacity-0 hov-orange fs-3 pe-5" 
+        href="mailto:mpampisb@gmail.com" 
+        target="_blank"
+          ><i class="fa-solid fa-envelope pe-1"></i>E-mail
+      </a>
+      <!-- link-underline-opacity-50-hover -->
+      <a class="scaled link-light link-offset-2 link-underline-opacity-0 hov-violet fs-3 pe-5" 
+        href="https://github.com/CharioMich" 
+        target="_blank"
+          ><i class="fa-brands fa-github pe-1"></i>Github
+      </a> 
+      <a class="scaled link-light link-offset-2 link-underline-opacity-0 hov-sky fs-3" 
+        href="https://linkedin.com/in/charalampos-m-222776333" 
+        target="_blank"
+          ><i class="fa-brands fa-linkedin pe-1"></i>LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <div class="custom-shape-divider-bottom-1747750426">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+  </div>
+  <footer class="font-monospace text-dark text-center cf-footer">
+    <i>Copyright &copy; 2025 Charalampos Michalakis</i> 
+  </footer>
+  <!-- <a class="cf-foot-link" href="https://codingfactory.aueb.gr" target="_blank">Coding Factory</a> -->
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="script.js" ></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
