@@ -29,3 +29,6 @@ updateOffcanvasDismiss();
 
 // Update on window resize
 window.addEventListener("resize", updateOffcanvasDismiss);
+
+// Set footer year
+document.getElementById('year').textContent = new Date().getFullYear();
