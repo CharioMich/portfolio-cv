@@ -6,6 +6,8 @@
 function updateOffcanvasDismiss() {
   const navLinks = document.querySelectorAll(".offcanvas-body .nav-item");
   const aboutCards = document.querySelectorAll(".cf-about");
+  const headContainer1 = document.getElementById("head1");
+  const headContainer2 = document.getElementById("head2");
 
   if (window.innerWidth < 768) {
     navLinks.forEach((link) => {
@@ -14,6 +16,8 @@ function updateOffcanvasDismiss() {
     aboutCards.forEach((card) => {
       card.classList.remove("w-50");
     });
+    // headContainer1.classList.toggle("d-none");
+    // headContainer2.classList.toggle("d-none");
   } else {
     navLinks.forEach((link) => {
       link.removeAttribute("data-bs-dismiss");
@@ -21,6 +25,8 @@ function updateOffcanvasDismiss() {
     aboutCards.forEach((card) => {
       card.classList.add("w-50");
     });
+    // headContainer1.classList.toggle("d-none");
+    // headContainer2.classList.toggle("d-none");
   }
 }
 
