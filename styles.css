@@ -170,18 +170,10 @@ hr {
 /* IMAGE */
 
 .cf-img-shadow {
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.637);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.678);
 }
 
-/* .cf-abstract {
-    border-top-left-radius: 150px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 110px;
-    border-bottom-left-radius: 20px;
-    
-} */
-
-.cf-abstract {
+.cf-img {
     border-radius: 50%;
 }
 
