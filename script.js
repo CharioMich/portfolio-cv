@@ -16,8 +16,6 @@ function updateOffcanvasDismiss() {
     aboutCards.forEach((card) => {
       card.classList.remove("w-50");
     });
-    // headContainer1.classList.toggle("d-none");
-    // headContainer2.classList.toggle("d-none");
   } else {
     navLinks.forEach((link) => {
       link.removeAttribute("data-bs-dismiss");
@@ -25,8 +23,6 @@ function updateOffcanvasDismiss() {
     aboutCards.forEach((card) => {
       card.classList.add("w-50");
     });
-    // headContainer1.classList.toggle("d-none");
-    // headContainer2.classList.toggle("d-none");
   }
 }
 
