@@ -186,6 +186,21 @@ hr {
     width: 50%;
 }
 
+.cf-reserva-card {
+  background: #ccfffa;
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.cf-reserva-img  {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 1rem;
+    width: auto;
+    height: 60vh;
+}
+
 .cf-img-rounded {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -199,6 +214,15 @@ hr {
 .cf-card:hover {
     /* box-shadow: 0 0 20px var(--card-shadow); */
     box-shadow: 0 0 20px violet;
+}
+
+ .cf-reserva-card:hover .cf-reserva-img {
+  box-shadow: 0 0 20px rgb(93, 255, 239);
+}
+
+.cf-reserva-card:hover .cf-reserva-body {
+  text-shadow: 0 0 10px rgb(93, 255, 239);
+  transition: 1.5s;
 }
 
 /* CONTACT */
